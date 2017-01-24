@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D85DE411E3795CE000EE831 /* people.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D85DE401E3795CE000EE831 /* people.jpg */; };
 		7D9A4DFE1E36338E00329632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9A4DFD1E36338E00329632 /* AppDelegate.swift */; };
 		7D9A4E001E36338E00329632 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9A4DFF1E36338E00329632 /* ViewController.swift */; };
 		7D9A4E021E36338E00329632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D9A4E011E36338E00329632 /* Assets.xcassets */; };
 		7D9A4E051E36338E00329632 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D9A4E031E36338E00329632 /* Main.storyboard */; };
-		7D9A4E0D1E3633A800329632 /* people.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D9A4E0C1E3633A800329632 /* people.jpg */; };
 		7D9A4E0F1E36341900329632 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9A4E0E1E36341900329632 /* MyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D85DE401E3795CE000EE831 /* people.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = people.jpg; sourceTree = "<group>"; };
 		7D9A4DFA1E36338E00329632 /* FaceDectect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceDectect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D9A4DFD1E36338E00329632 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D9A4DFF1E36338E00329632 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7D9A4E011E36338E00329632 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D9A4E041E36338E00329632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D9A4E061E36338E00329632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7D9A4E0C1E3633A800329632 /* people.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = people.jpg; sourceTree = "<group>"; };
 		7D9A4E0E1E36341900329632 /* MyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,8 +61,8 @@
 				7D9A4E0E1E36341900329632 /* MyView.swift */,
 				7D9A4E011E36338E00329632 /* Assets.xcassets */,
 				7D9A4E031E36338E00329632 /* Main.storyboard */,
-				7D9A4E0C1E3633A800329632 /* people.jpg */,
 				7D9A4E061E36338E00329632 /* Info.plist */,
+				7D85DE401E3795CE000EE831 /* people.jpg */,
 			);
 			path = FaceDectect;
 			sourceTree = "<group>";
@@ -128,7 +128,7 @@
 			files = (
 				7D9A4E021E36338E00329632 /* Assets.xcassets in Resources */,
 				7D9A4E051E36338E00329632 /* Main.storyboard in Resources */,
-				7D9A4E0D1E3633A800329632 /* people.jpg in Resources */,
+				7D85DE411E3795CE000EE831 /* people.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +294,7 @@
 				7D9A4E0B1E36338E00329632 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
