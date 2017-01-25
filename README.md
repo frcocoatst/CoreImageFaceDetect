@@ -4,4 +4,5 @@ Face detection demo
 
 - 
 
-![FaceDectect Image](https://github.com/frcocoatst/FaceDectect/blob/master/face.png)
+![FaceDectect Image](https://github.com/frcocoatst/CoreImageFaceDetect/blob/master/face.png)
+
