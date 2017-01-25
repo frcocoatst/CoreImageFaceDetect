@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D0AE14F1E38D89B0054CB1A /* people_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D0AE14E1E38D89B0054CB1A /* people_2.jpg */; };
 		7D85DE411E3795CE000EE831 /* people.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D85DE401E3795CE000EE831 /* people.jpg */; };
 		7D9A4DFE1E36338E00329632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9A4DFD1E36338E00329632 /* AppDelegate.swift */; };
 		7D9A4E001E36338E00329632 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9A4DFF1E36338E00329632 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D0AE14E1E38D89B0054CB1A /* people_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = people_2.jpg; sourceTree = "<group>"; };
 		7D85DE401E3795CE000EE831 /* people.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = people.jpg; sourceTree = "<group>"; };
 		7D9A4DFA1E36338E00329632 /* FaceDectect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceDectect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D9A4DFD1E36338E00329632 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				7D9A4E031E36338E00329632 /* Main.storyboard */,
 				7D9A4E061E36338E00329632 /* Info.plist */,
 				7D85DE401E3795CE000EE831 /* people.jpg */,
+				7D0AE14E1E38D89B0054CB1A /* people_2.jpg */,
 			);
 			path = FaceDectect;
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D9A4E021E36338E00329632 /* Assets.xcassets in Resources */,
+				7D0AE14F1E38D89B0054CB1A /* people_2.jpg in Resources */,
 				7D9A4E051E36338E00329632 /* Main.storyboard in Resources */,
 				7D85DE411E3795CE000EE831 /* people.jpg in Resources */,
 			);
