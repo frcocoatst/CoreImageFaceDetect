@@ -7,6 +7,8 @@
 //
 //  https://www.hackingwithswift.com/example-code/media/cidetectortypeface-how-to-detect-faces-in-a-uiimage
 //  https://www.appcoda.com/face-detection-core-image/
+//  https://panic.com/blog/fun-with-face-recognition/
+//
 
 import Cocoa
 
@@ -57,6 +59,7 @@ class MyView: NSView {
         let faceDetector = CIDetector(ofType: CIDetectorTypeFace, context: nil, options: options)!
         
         let faces = faceDetector.features(in: ciImage)
+        
         
         for face in faces as! [CIFaceFeature] {
         //if let face = faces.first as? CIFaceFeature {
