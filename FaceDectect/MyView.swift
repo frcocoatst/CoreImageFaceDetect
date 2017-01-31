@@ -8,7 +8,8 @@
 //  https://www.hackingwithswift.com/example-code/media/cidetectortypeface-how-to-detect-faces-in-a-uiimage
 //  https://www.appcoda.com/face-detection-core-image/
 //  https://panic.com/blog/fun-with-face-recognition/
-//
+//  http://stackoverflow.com/questions/29756283/cifacefeature-hassmile-is-always-false
+
 
 import Cocoa
 
@@ -55,11 +56,10 @@ class MyView: NSView {
         nsImage.draw(in: self.bounds, from:NSZeroRect ,operation:.sourceOver, fraction:1)
         
         let options = [CIDetectorAccuracy: CIDetectorAccuracyHigh]
-        
         let faceDetector = CIDetector(ofType: CIDetectorTypeFace, context: nil, options: options)!
         
-        let faces = faceDetector.features(in: ciImage)
-        
+        let faceoptions = [CIDetectorSmile: true, CIDetectorEyeBlink: true]
+        let faces = faceDetector.features(in: ciImage, options: faceoptions)
         
         for face in faces as! [CIFaceFeature] {
         //if let face = faces.first as? CIFaceFeature {
@@ -100,7 +100,15 @@ class MyView: NSView {
             }
             
             if face.hasSmile {
-                NSLog("face is smiling");
+                NSLog("face is smiling")
+            }
+            
+            if face.leftEyeClosed {
+                NSLog("face leftEyeClosed")
+            }
+            
+            if face.rightEyeClosed {
+                NSLog("face rightEyeClosed")
             }
             
             // draw rectangle https://www.appcoda.com/face-detection-core-image/
